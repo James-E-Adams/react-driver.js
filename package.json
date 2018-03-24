@@ -2,10 +2,17 @@
   "name": "react-driver.js",
   "version": "1.0.0",
   "description": "React wrapper for driver.js",
-  "main": "index.js",
+  "main": "./dist",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm publish",
+    "build": "parcel build src/index.js"
   },
-  "author": "James Adams",
-  "license": "ISC"
+  "author": "James Adams <@jamesadams0>",
+  "license": "MIT",
+  "devDependencies": {
+    "driver.js": "^0.3.6",
+    "parcel": "^0.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
 }
