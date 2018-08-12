@@ -1,6 +1,7 @@
 # `react-driver.js` - A React wrapper around driver.js.
 
-Not usable yet, still need to fix a few npm/bundling issues.
+Note: I never got around to setting this up properly on npm. If a single person needs it, please let me know and I'll do it. Otherwise just steal the code. :)
+
 
 [![npm](https://img.shields.io/npm/v/react-driver.js.svg?style=flat-square)](https://npmjs.org/react-driver.js)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
